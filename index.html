@@ -1,66 +1,56 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Menü</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilavcı Ahmet</title>
 
-<style>
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#f5f5f5;
-}
+    <link rel="stylesheet" href="style.css">
 
-.container{
-    max-width:700px;
-    margin:40px auto;
-    background:white;
-    padding:30px;
-    border-radius:20px;
-    box-shadow:0 10px 30px rgba(0,0,0,.1);
-}
-
-h1{
-    text-align:center;
-}
-
-.item{
-    display:flex;
-    justify-content:space-between;
-    padding:15px 0;
-    border-bottom:1px solid #ddd;
-}
-
-.price{
-    font-weight:bold;
-}
-</style>
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="container">
+<header>
 
-<h1>🍽️ Restaurant Menü</h1>
+    <div class="logo">
+        🍚 Pilavcı Ahmet
+    </div>
 
-<div class="item">
-<span>Margherita Pizza</span>
-<span class="price">320 ₺</span>
-</div>
+    <nav>
+        <a href="#">Ana Sayfa</a>
+        <a href="#">Menü</a>
+        <a href="#">İçecekler</a>
+        <a href="#">İletişim</a>
+    </nav>
 
-<div class="item">
-<span>Cheeseburger</span>
-<span class="price">340 ₺</span>
-</div>
+</header>
 
-<div class="item">
-<span>Cola</span>
-<span class="price">80 ₺</span>
-</div>
 
-</div>
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h1>Gerçek Tavuk Pilav Lezzeti</h1>
+
+        <p>
+            Günlük hazırlanan tavuk, tereyağlı pilav ve enfes lezzet.
+        </p>
+
+        <button>Menüyü İncele</button>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?w=800" alt="Pilav">
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
